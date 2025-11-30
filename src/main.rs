@@ -1,9 +1,5 @@
-use axum::{
-    Json, debug_handler,
-    routing::{get, post},
-};
-use serde::Serialize;
-use uuid::Uuid;
+use axum::routing::{get, post};
+
 mod vehicle;
 
 #[tokio::main]
